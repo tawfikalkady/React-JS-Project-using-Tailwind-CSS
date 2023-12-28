@@ -1,0 +1,54 @@
+https://tailwindcss.com/docs/guides/vite
+npm create vite@latest my-project -- --template react
+cd my-project
+npm install
+npm run dev
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+settings>Unknown At Rules>ignore
+
+npm run dev
+ES7+ React/Redux/React-Native snippets
+
+https://fonts.google.com/specimen/Jost
+
+https://react-icons.github.io/react-icons/
+npm install react-icons --save
+
+import { GrLanguage } from "react-icons/gr";
+
+https://stackoverflow.com/questions/38684925/react-eslint-error-missing-in-props-validation
+"react/prop-types": "off"
+
+https://tailwindcss.com/docs/box-shadow
+
+remove bg
+
+from rgba to hex
+https://rgbacolorpicker.com/rgba-to-hex
+
+
+https://www.npmjs.com/package/react-scroll
+npm i react-scroll
+
+https://www.npmjs.com/package/framer-motion
+npm i framer-motion
+
+
+
+
+
+
+
+
+
